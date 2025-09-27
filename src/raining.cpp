@@ -16,8 +16,7 @@ void enterName() {
 
       businesses.push_back(business);
       sort(businesses.begin(), businesses.end());
-
-      // Output the sorted list
+      
       cout << "\nYour businesses are:\n" << endl;
       for (const string& b : businesses) {
          cout << "    " << b << endl;
