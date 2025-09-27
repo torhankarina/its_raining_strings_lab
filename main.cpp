@@ -2,6 +2,11 @@
 
 #include "src/raining.hpp"
 
+using namespace std;
 int main() {
-  // Your driver program goes here
+  cout << "Welcome to the Business Sorting Program!\n"<<endl;
+
+  enterName();
+  cout << "\nThank you for using the Business Sorting Program!"<<endl;
+  return 0;
 }
